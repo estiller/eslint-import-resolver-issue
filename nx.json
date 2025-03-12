@@ -9,6 +9,11 @@
     ],
     "sharedGlobals": []
   },
+  "targetDefaults": {
+    "lint": {
+      "cache": false
+    }
+  },
   "plugins": [
     {
       "plugin": "@nx/eslint/plugin",
