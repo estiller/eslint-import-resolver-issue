@@ -1,0 +1,23 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@eslint-import-resolver-issue/my-lib": ["libs/my-lib/src/index.ts"],
+      "@eslint-import-resolver-issue/my-lib2": ["libs/my-lib2/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
